@@ -1,0 +1,3 @@
+Python es un lenguaje de programación muy poderoso y versátil.
+Es ampliamente utilizado en diversas aplicaciones, incluyendo desarrollo web, análisis de
+datos y aprendizaje automático.
