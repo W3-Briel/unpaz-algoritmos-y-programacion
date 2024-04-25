@@ -79,7 +79,7 @@ class ListaOrdenada:
             temp.asignarSiguiente(actual)
             previo.asignarSiguiente(temp)
 
-    def ver(self):
+    def ver(self):        
         print("[",end="")
         if self.estaVacia:            
             actual = self.cabeza
@@ -94,15 +94,17 @@ class ListaOrdenada:
         return
 
 #Modulo Nuevo
+## encontrar un objeto por indice
     def metodo_nuevo(self,x):
         actual = self.cabeza
         contador = 0
         while actual != None:
             if contador == x:
                 return actual.dato
-            actual = actual.obtenerSiguiente()
+            actual = actual.obtenerSiguiente()            
             contador += 1
         return None
-    
+
     def borrar_lista(self):
-        self.cabeza= None
+        self.cabeza = None
+        return "lista borrada"
